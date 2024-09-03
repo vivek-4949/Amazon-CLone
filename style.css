@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-family: arial;
+}
+
+/*** Navigation Bar ***/
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+/** Box 1 **/
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    height: 50px;
+    background-image: url('image/amazon_logo.png');
+    background-size: cover;
+    width: 100%;
+}
+
+.border {
+    border: 1px solid transparent;
+}
+
+.border:hover {
+    border: 1px solid white;
+}
+
+
+/** Box 2 **/
+
+.add-first {
+    margin-left: 15px;
+    font-size: 0.8rem;
+    color: #cccccc;
+}
+
+.add-second {
+    display: flex;
+
+}
+
+.add-para {
+    margin-left: 3px;
+    font-size: 1rem;
+}
+
+/** Box 3 **/
+
+.nav-search {
+    display: flex;
+    width: 620px;
+    height: 40px;
+    justify-content: space-evenly;
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+
+.search-select {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    width: 50px;
+    text-align: center;
+    background-color: #e6e6e6;
+}
+
+.search-input {
+    width: 100%;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.search-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: black;
+    background-color: rgb(250, 211, 38);
+    border: none;
+    font-size: 1rem;
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+    
+}
+
+/** Box 4 **/
+
+span {
+    font-size: 0.8rem;
+}
+
+.sign-second {
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+
+/** Box 5 **/
+
+.nav-cart i {
+    font-size: 30px;
+}
+
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+/*** Panel ***/
+
+.panel {
+    height: 40px;
+    display: flex;
+
+    background-color: #222f3d;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.panel-option {
+    width: 75%;
+}
+
+.panel-option p {
+    margin-left: 15px;
+    display: inline;
+    font-size: 0.85rem;
+}
+
+.panel-deal {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/*** Hero Section ***/
+
+.hero-section {
+    background-image: url("image/hero_image.jpg");
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+}
+
+.hero-mesg {
+    width: 80%;
+    height: 40px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    font-size: 0.85rem;
+}
+
+.hero-mesg a {
+    text-decoration: none;
+}
+
+/** Product Section **/
+
+.product-main {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #9FB4B7;
+    border: none;
+    flex-wrap: wrap;
+    
+}
+
+.main-box {
+    height: 400px;
+    width: 22%;
+    background-color: white;
+    padding: 20px 10px 15px 10px;
+    margin-top: 15px;
+    
+}
+
+.product-box p {
+    margin-top: 5px;
+    color: rgb(37, 37, 160);
+}
+
+.product-img {
+    height: 350px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-size: cover;
+}
+
+/** Footer **/
+
+/* footer 1*/
+
+.first-footer {
+    height: 30px;
+    background-color: #37475A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* Footer 2*/
+
+.second-footer {
+    height: 300px;
+    background-color: #232F3E;
+}
+
+.second-footer-1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-box {
+    color: white;
+    height: 250px;
+    width: 23%;
+    padding-top: 30px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.footer-box li {
+    margin-top: 7px;
+    list-style-type: none;   
+}
+
+.footer-box h4 {
+    font-weight: 700;
+}
+
+/* Footer 3 */
+
+.third-footer {
+    background-color: #131A22;
+    height: 40px;
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+    padding-top: 10px;
+}
+
+.third-footer-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.third-footer-1 p {
+    margin-left: 10px;
+}
